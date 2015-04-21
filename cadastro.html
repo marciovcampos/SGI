@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>SGC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="table">
+    <div>
+      <div class="td col-sm-4"><a href="login.html"><img class="img-responsive" src="img/logo.jpg" width="200" height="200"></a></div>
+      <div class="td col-sm-5"><br><center><h2>Sistema de Gestão de Imagens</h2><h2>Novo Cadastro</h2><center></div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <br>
+  <br>
+  <form class="form-horizontal" role="form"  method="post" action="http://localhost/SGI/grava.php">
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Nome:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" name="Nome" id="Nome" placeholder="Nome">
+      </div>
+    </div>
+
+     <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Sobrenome:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome">
+      </div>
+    </div> 
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
+      </div>
+    </div>  
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Senha:</label>
+      <div class="col-sm-8">
+        <input type="password" class="form-control" name="Senha" id="Senha" placeholder="Senha">
+      </div>
+    </div>     
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Confirmar Senha:</label>
+      <div class="col-sm-8">
+        <input type="password" class="form-control" name="ConfirmarSenha" id="ConfirmarSenha" placeholder="Confirmar Senha">
+      </div>
+    </div> 
+
+
+   
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-8">
+        <div class="table">
+          <div>
+            <div class="td col-sm-5" align="left"><button type="submit" class="btn btn-success pull-none">Salvar</button></div>
+            <div class="td col-sm-7" align ="right"><a href="login.html"><button type="button" class="btn btn-danger pull-none">Cancelar</button></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </form>
+
+
+</body>
+</html>
+
